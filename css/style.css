@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+nav ul li a {
+  font-size: 13px;
+  font-weight: 700;
+  color: #3d3582;
+}
+
+nav ul li a span {
+  font-weight: 400;
+  color: #b2b5b7;
+}
+
+nav ul li a:hover {
+  color: #3d3582;
+}
+
+hr {
+  height: .25rem;
+  width: 33%;
+  margin: 0;
+  background: #3d3582;
+  border: none;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.container {
+  background-color: #f8f9fa;
+  display: none;
+}
+
+.container .description p {
+  font-weight: 700;
+  color: #3d3582;
+}
+
+.container .media img {
+  width: 60px;
+  height: 50px;
+}
+
+.container .media .product-quantity {
+  color: #8fbcf0;
+  font-weight: 500;
+}
+
+.container .media .media-body .product-name {
+  font-size: 16px;
+  color: #3d3582;
+  font-weight: 700;
+}
+
+.container .media .media-body p {
+  font-size: 14px;
+}
+
+.container-categories {
+  display: none;
+  margin: 10px;
+  margin: 0;
+  height: 94vh;
+  background-color: #f8f9fa;
+}
+
+.container-categories .btn {
+  font-size: 16px;
+  color: #428fe8;
+  border: 2px solid #8fbcf0;
+  border-radius: 25px;
+}
+
+.container-categories .header {
+  font-weight: 700;
+  color: #3d3582;
+}
+
+.container-categories .previous-link {
+  font-weight: 500;
+  color: #b3b5b7;
+}
+
+.container-categories .current-link {
+  font-weight: 700;
+}
+
+.container-categories a span {
+  font-weight: 700;
+}
+
+.container-categories button {
+  width: 95%;
+  margin: 0 10px 0 10px;
+}
+
+.container-products {
+  background-color: #f8f9fa;
+  display: none;
+}
+
+.container-products .product-item {
+  border-bottom: 1px solid #efefef;
+}
+
+.container-products .product-item .description p {
+  font-weight: 700;
+  color: #3d3582;
+  padding-top: 10px;
+  padding-left: 12px;
+}
+
+.container-products .product-item .smallbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-products .product-item .smallbox .imgbox {
+  background-image: url(https://north.pl/imgartn/2/900,900/708-ZU-1211,0,488000378716-grzalka-do-suszarki.jpg);
+  background-size: contain;
+  width: 60px;
+  height: 50px;
+  margin-left: 12px;
+}
+
+.container-products .product-item .product .product-name {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.container-products .product-item .product-price {
+  font-weight: 700;
+  font-size: 18px;
+  margin-right: 15px;
+  color: #3d3582;
+}
+
+.container-products .product-item .product-price span {
+  font-weight: 700;
+  font-size: 12px;
+  vertical-align: 6px;
+}
+
+.active {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */
